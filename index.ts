@@ -12,7 +12,7 @@ const computerMove = Math.floor(Math.random() * 3)
 function RockPaperScissors(input, computerMove) {
   if (input == computerMove) {
     return "tie"
-  } else if ((input + 1) % 3 == computerMove) {
+  } else if ((input + 1) % 3 == computerMove) { // if value would be greater than 2, wraps value back around to 0
     return "lose"
   } else {
     return "win"
