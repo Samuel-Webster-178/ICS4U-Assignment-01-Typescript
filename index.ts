@@ -30,7 +30,6 @@ const input = createSelection([
 ], {
   headerText: 'Choose your move: ',
   perPage: 5,
-  footerText: 'Footer here'
 })
 
 const choices = ['rock', 'paper', 'scissors']
